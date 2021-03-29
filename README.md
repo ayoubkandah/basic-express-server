@@ -1,4 +1,15 @@
 # basic-express-server
+## Setup
+* Creating the repo on github.
+* Add Node CI
+* install packages
+## The end points for the Application
+* get.( "/person?name="Ayoub" " ) which must have a query of property name.
+## Middleware in the Application 
+* logger.
+* validation for make tha name allow just characters and if the property exist.
+
+# *URL's
 [Heroku with valid name](https://ayoub-basic-express-server.herokuapp.com/person?name=ayoub)
 
 [Heroku with in valid name](https://ayoub-basic-express-server.herokuapp.com/person?name=222)
