@@ -14,5 +14,9 @@ it("not Found Route",async ()=>{
     expect(response.status).toEqual(404)
     
     })
+    it('Handle person route output', async () => {
+        const response = await request.get('/person?name=Ayoub');
+        expect(response.body).toEqual({"name":'Ayoub'});
+      });
 
 })
